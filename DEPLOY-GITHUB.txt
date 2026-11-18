@@ -1,0 +1,16 @@
+PASOS PARA PUBLICAR
+
+1) Descomprimí Agrofinanzas-Magoia.zip en tu PC.
+2) Entrá a GitHub y creá un repositorio nuevo llamado agrofinanzas-magoia.
+3) Subí todos los archivos y carpetas que están dentro de Agrofinanzas-Magoia (no subas el ZIP dentro del repositorio).
+4) Entrá a https://vercel.com, iniciá sesión con GitHub y elegí Add New > Project.
+5) Importá el repositorio agrofinanzas-magoia.
+6) Dejá Framework Preset: Next.js, Root Directory: ./ y Build Command: npm run build.
+7) Hacé clic en Deploy.
+
+No requiere claves ni variables de entorno para la versión incluida.
+
+Si querés probar antes en tu computadora: instalá Node.js 20.9 o superior, abrí una terminal en la carpeta del proyecto y ejecutá:
+  npm install
+  npm run dev
+Luego abrí http://localhost:3000.
