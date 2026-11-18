@@ -1,0 +1,15 @@
+IMPORTANTE: estructura correcta para GitHub y Vercel
+
+En el repositorio, package.json y la carpeta app deben quedar en el primer nivel (raíz).
+No subas la carpeta contenedora Agrofinanzas-Magoia como una subcarpeta adicional.
+
+La raíz del repositorio debe mostrar, entre otros:
+- package.json
+- app/ (con page.tsx, layout.tsx y globals.css)
+- public/ (con logo.png e icono.png)
+- next.config.ts
+
+En Vercel > Project Settings > General > Root Directory, dejá ./ (vacío/raíz del repositorio).
+Framework Preset: Next.js. Build Command: npm run build. Output Directory: dejar el valor predeterminado.
+
+Si ya existe un deploy fallido, corregí primero el contenido del repositorio y luego usá Redeploy.
